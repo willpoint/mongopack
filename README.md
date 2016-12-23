@@ -1,5 +1,5 @@
 ## Description
-  Toolbox to for mongodb backup and restore. Makes import and export to and from file smooth.
+  Toolbox for mongodb backup and restore. Makes import and export to and from files seamless.
   Supports imports from json|tsv|csv and export to csv|json.
 
 ### Export API:
