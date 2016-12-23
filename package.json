@@ -1,6 +1,6 @@
 {
   "name": "mongopack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple backup and restore tool pack for mongodb",
   "keywords": [
     "backup",
