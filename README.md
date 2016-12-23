@@ -39,7 +39,7 @@ mongoimport(database, collection, file, options, function(err, querydb) {
 
 ## Controlling import or export behaviour
 
-* --ssl --if the mongod process has TLS/SSL support enabled
+  * --ssl --if the mongod process has TLS/SSL support enabled
   * --sslCAFile -- the file name of the .pem file using relative or absolute paths
   * --sslPEMKEYFile -- the .pem file that containes both the TLS/SSL certificate and key
   * --sslPEMKeyPassword -- the password
