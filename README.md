@@ -10,8 +10,8 @@ var database = "company",
 		collection = "awesome",
 		destination = "cmp/backup",
 		options = {
-		type: "csv", // default is csv -- accepts < csv|json>
-		pretty: true,
+		type: "json", // default is csv
+		pretty: true, // gives a pretty formatted json in output file
 		field: ['_id', 'name', 'email', 'address', 'milestone'],
   };		
 // perform export
