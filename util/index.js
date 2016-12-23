@@ -1,4 +1,4 @@
-exports.mergeObjects = function(target, source) {
+exports.mergeOpts = function(target, source) {
 	target = target || {};
 	if (arguments.length < 2)
 		source = arguments[0];
