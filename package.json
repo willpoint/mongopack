@@ -1,19 +1,36 @@
 {
   "name": "mongopack",
   "version": "1.0.0",
-  "description": "* A mongodb tool for easy backup and restore operations, \r   supports backup supported by mongodb into csv or json files. \r   Restoring data into db from a tsv|csv|json is also supported.",
-  "main": "index.js",
-  "directories": {
-    "test": "test"
+  "description": "Simple backup and restore tool pack for mongodb",
+  "keywords": [
+    "backup",
+    "restore",
+    "nosql",
+    "database",
+    "mongodb",
+    "json",
+    "csv",
+    "tsv"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Uzondu Enudeme",
+    "email": "willpoint@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/willpoint/mongopack.git"
+  },
+  "main": "./index",
+  "engines": {
+    "node": "*"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "mocha": "^1.9.0"
-  }
+  },
+  "directories": {}
 }

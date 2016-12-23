@@ -1,7 +1,3 @@
-## Description
-* Toolbox to for mongodb backup and restore. Makes import and export to and from file smooth.
-  Supports imports from json|tsv|csv and export to csv|json.
-
 ### Export API:
 
 ```
@@ -15,7 +11,7 @@ var database = "company",
 		field: ['_id', 'name', 'email', 'address', 'milestone'],
   };		
 // perform export
-mongoexport(database, collection, destination, function(err) {
+mongoexport(database, collection, destination, options, function(err) {
 	if (err) throw new Error();
   // yaay! export done!
 	console.log("export completed, check output to verify");
@@ -29,7 +25,7 @@ var database = "company",
 		collection = "awesome",
 		file = "cmp/backup";
 // perform import
-mongoimport(database, collection, file, function(err, querydb) {
+mongoimport(database, collection, file, options, function(err, querydb) {
 	if (err) throw new Error();
   querydb(); // just to verify import is done!
 	console.log("import completed and verified");
