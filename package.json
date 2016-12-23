@@ -1,5 +1,5 @@
 {
-  "name": "MONGOPACK",
+  "name": "mongopack",
   "version": "1.0.0",
   "description": "* A mongodb tool for easy backup and restore operations, \r   supports backup supported by mongodb into csv or json files. \r   Restoring data into db from a tsv|csv|json is also supported.",
   "main": "index.js",
